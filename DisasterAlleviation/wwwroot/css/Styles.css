@@ -1,0 +1,77 @@
+﻿body {
+    
+}
+
+/*.subBtn input{
+    color: purple;
+    background-color:aqua;
+}*/
+
+
+.subBtn input[type="submit"] {
+    outline: none;
+    border: none;
+    background: purple;
+    color: white;
+    border-radius:25px;
+    height:50px;
+    width:100px;
+}
+
+.subBtn input[type="submit"]{
+    background:#333;
+    margin-top:20px;
+    margin-left:51%;
+}
+
+.form-contents input[type=email], input[type=password] {
+    margin-left: 45%;
+    border-radius: 20px;
+    width:240px;
+    height:40px;
+    border:2px solid black;
+}
+
+.form-contents label{
+    margin-left:45%;
+    margin-right:auto;
+}
+
+.form-contents{
+    margin-top:60px;
+}
+
+.log-head{
+    margin-left:43%;
+}
+
+.user-type h5{
+    color:black;
+    text-align:center;
+}
+
+.user-type a{
+   text-decoration:none;
+}
+
+.user-type img{
+    background-color:none;
+    height:350px;
+    width:350px;
+}
+
+.user-type{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.label-content input[type=date], input[type=text], input[type=number], input[type=radio] {
+    margin-left: 45%;
+    margin-right: auto;
+    margin-top:20px;
+}
+
+.position-categories{
+    margin-top:50px;
+}

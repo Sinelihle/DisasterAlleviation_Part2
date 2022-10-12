@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\GoodList.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\GoodList.cshtml" />
+    <None Include="wwwroot\css\Styles.css" />
+    <None Include="wwwroot\Icons\administrator.png" />
+    <None Include="wwwroot\Icons\blood-donor.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\GoodList.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\GoodList.cshtml" />
+  </ItemGroup>
+
+</Project>

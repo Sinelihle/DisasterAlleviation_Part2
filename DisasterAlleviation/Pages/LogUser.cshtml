@@ -1,0 +1,45 @@
+﻿@page
+@model DisasterAlleviation.Pages.LogUserModel
+@{
+    //dont' forget asp-for
+}
+<html>
+    <body>
+
+    @if(Model.errorMessage.Length > 0)
+    {
+        <div class = 'alert alert-warning alert-dismissible fade show' role='alert'>
+            <strong>@Model.errorMessage</strong>
+            <button type="button" class="btn-close" data-bs-dismiss='alert' aria-label='close' ></button>
+        </div>
+    }
+    <h3 class ="log-head">LOGIN <span>TO</span> ACCOUNT</h3>
+        <div class= "form-contents">
+         <form method = "POST">
+          <label for="email">Email Address:</label><br>
+          <input type="email" name="uEmail" value= "@Model.loginInfo.Email" required placeholder="Email Address"><br>
+          <label type="password">Password</label><br>
+          <input type="password" name="uPass"  value= "@Model.loginInfo.Password"  required placeholder="Password"><br>
+          <label type="password">Confirm Password</label><br>
+          <input type="password" name="uPass"  value= "@Model.loginInfo.Password" required placeholder="Confirm Password"><br>
+
+            @if(@Model.approvedMessage.Length > 0)
+            {
+                <div class="row mb-3">
+                    <div class="col-sm-9">
+                        <div class = 'alert alert-success alert-dismissible fade show' role='alert'>
+                            <strong>
+                                @Model.approvedMessage
+                            </strong>
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='close'> </button>
+                        </div>
+                    </div>
+                </div>
+            }
+            <div class = "subBtn">
+          <input type="submit" value="Login"/>
+          </div>
+        </form> 
+        </div>
+    </body>
+</html>

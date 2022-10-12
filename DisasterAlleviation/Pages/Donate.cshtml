@@ -1,0 +1,52 @@
+﻿@page
+@model DisasterAlleviation.Pages.DonateModel
+@{
+}
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<body>
+    <form action="POST">
+         <div class= "label-content">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="donDate"><br>
+        <label type="text" for="goodNum">No Goods</label>
+        <input type="number" id="goodNum" name="pass"><br>
+
+        <div class="categories">
+            <fieldset class="position-categories">
+                <legend>Category</legend>
+                <div>
+                    <input type="radio"  id="goodOne" name="goodsCategry" value="Clothes"><br>
+                    <label for="goodOne">Clothes</label>
+                </div>
+               <div>
+                    <input type="radio"  id="goodTwo"  name="goodsCategry"><br>
+                    <label for="goodTwo">Non-Perishable Food</label>
+               </div>   
+               <div>
+                   <input type="text" name="numOfGoods" id="goodNum"><br>
+                    <label for="numOfGoods">Number of Goods</label>
+               </div>
+            </fieldset>
+            <div>
+                <label for="userName">Name</label>
+                <input type="text" id="userName" name = "userName"><br>
+            </div>
+            <div>
+                <textarea name="GoodDescription" placeholder="Enter a description">
+
+                </textarea>
+            </div>
+        </div> 
+        <div class = "donBtn">
+            <input type="submit" value="DONATE"/>
+        </div>
+    </div>
+    </form>
+   
+</body>
+
