@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DisasterAlleviation
 build_property.RootNamespace = DisasterAlleviation
-build_property.ProjectDir = C:\Users\IRA\source\repos\DisasterAlleviation\DisasterAlleviation\
+build_property.ProjectDir = C:\Users\IRA\OneDrive\Desktop\DisasterAlleviation\Disaster\DisasterAlleviation\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\IRA\source\repos\DisasterAlleviation\DisasterAlleviation
+build_property.MSBuildProjectDirectory = C:\Users\IRA\OneDrive\Desktop\DisasterAlleviation\Disaster\DisasterAlleviation
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/IRA/source/repos/DisasterAlleviation/DisasterAlleviation/Pages/Donate.cshtml]
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/Donate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IRA/source/repos/DisasterAlleviation/DisasterAlleviation/Pages/Error.cshtml]
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IRA/source/repos/DisasterAlleviation/DisasterAlleviation/Pages/Index.cshtml]
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IRA/source/repos/DisasterAlleviation/DisasterAlleviation/Pages/LogUser.cshtml]
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/LogUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IRA/source/repos/DisasterAlleviation/DisasterAlleviation/Pages/monetaryDonate.cshtml]
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/monetaryDonate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbW9uZXRhcnlEb25hdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IRA/source/repos/DisasterAlleviation/DisasterAlleviation/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IRA/source/repos/DisasterAlleviation/DisasterAlleviation/Pages/_ViewImports.cshtml]
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IRA/source/repos/DisasterAlleviation/DisasterAlleviation/Pages/_ViewStart.cshtml]
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IRA/source/repos/DisasterAlleviation/DisasterAlleviation/Pages/Shared/_Layout.cshtml]
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t8507sryq4
