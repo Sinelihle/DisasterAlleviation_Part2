@@ -6,16 +6,18 @@
     color: purple;
     background-color:aqua;
 }*/
-
+.alignField input[type="number"]{
+    margin-left: 100px;
+}
 
 .subBtn input[type="submit"] {
     outline: none;
     border: none;
     background: purple;
     color: white;
-    border-radius:25px;
-    height:50px;
-    width:100px;
+    border-radius: 25px;
+    height: 50px;
+    width: 100px;
 }
 
 .subBtn input[type="submit"]{

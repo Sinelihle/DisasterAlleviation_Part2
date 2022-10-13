@@ -1,5 +1,19 @@
 ﻿@page
 @model DisasterAlleviation.Pages.AllocateModel
 @{
+     <h3 class ="log-head">Allocate <span>TO</span> Money</h3>
+     <form method = "POST">
+          <div class="alignField">
+          <label for="amount">Amount:</label>
+          <input type="number" name="amount" required placeholder="Amount"><br>
+          </div>
+          <label type="password">Password</label><br>
+          <input type="password" name="uPass" required placeholder="Password"><br>
+          <label type="password">Confirm Password</label><br>
+          <input type="password" name="uPass" required placeholder="Confirm Password"><br>
+          <div class = "subBtn">
+          <input type="submit" value="Login"/>
+          </div>
+        </form> 
 
 }
