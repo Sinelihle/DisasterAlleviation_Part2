@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 
 namespace DisasterAlleviation.Pages
 {
-    [Authorize]
+    [Authorize("Administrator")]
     public class MonetaryAllocateModel : PageModel
     {
         String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\IRA\\OneDrive\\Documents\\DisasterDB.mdf;Integrated Security=True;Connect Timeout=30";
