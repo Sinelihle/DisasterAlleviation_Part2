@@ -46,11 +46,12 @@ namespace DisasterAlleviation.Pages
         public void OnPost()
         {
             string goodCate = "";
-            loginInfo.GoodName = Request.Form["uEmail"];
             loginInfo.DonDate = Request.Form["donDate"];
-            loginInfo.NumOfGoods = Request.Form["numOfGoods"];
-            loginInfo.GoodCatergory = Request.Form["goodsCategry"];
+            loginInfo.NumOfGoods = Request.Form["goodNum"];
+            loginInfo.GoodName = Request.Form["goodName"];
+            loginInfo.GoodCatergory = Request.Form["goodsCategory"];
             loginInfo.UserName = Request.Form["userName"];
+            loginInfo.GoodDescription = Request.Form["GoodDescription"];
 
 
             if (loginInfo.GoodCatergory.ToString().Equals("Clothes"))
@@ -72,16 +73,16 @@ namespace DisasterAlleviation.Pages
                 String ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\IRA\\OneDrive\\Documents\\DisasterDB.mdf;Integrated Security=True;Connect Timeout=30";
                 SqlConnection con = new SqlConnection(ConnectionString);
                 con.Open();
-                String query = "Insert into GOODS_DONATE (goodName, donaDate, numGoods, goodsCategory, goodDescription, donorName) values " + "(@goodName, @donaDate, @numGoods, @goodsCategory, @goodDescription, @donorName)";
+                String query = "insert into GOODS_DONATE (goodName, donaDate, numGoods, goodsCategory, goodDescription, donorName) values " + "(@goodName, @donaDate, @numGoods, @goodsCategory, @goodDescription, @donorName)";
 
                 SqlCommand command = new SqlCommand(query, con);
 
-                command.Parameters.AddWithValue("@goodName", loginInfo.GoodName);
                 command.Parameters.AddWithValue("@donDate", loginInfo.DonDate);
                 command.Parameters.AddWithValue("@numGoods", loginInfo.NumOfGoods);
+                command.Parameters.AddWithValue("@goodName", loginInfo.GoodName);
                 command.Parameters.AddWithValue("@goodsCategory", loginInfo.GoodCatergory);
-                command.Parameters.AddWithValue("@goodDescription", loginInfo.GoodDescription);
                 command.Parameters.AddWithValue("@donorName", loginInfo.UserName);
+                command.Parameters.AddWithValue("@goodDescription", loginInfo.GoodDescription);
 
 
 
