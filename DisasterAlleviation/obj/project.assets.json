@@ -460,11 +460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IRA\\source\\repos\\DisasterAlleviation\\DisasterAlleviation\\DisasterAlleviation.csproj",
+      "projectUniqueName": "C:\\Users\\IRA\\OneDrive\\Desktop\\DisasterAlleviation\\Disaster\\DisasterAlleviation\\DisasterAlleviation.csproj",
       "projectName": "DisasterAlleviation",
-      "projectPath": "C:\\Users\\IRA\\source\\repos\\DisasterAlleviation\\DisasterAlleviation\\DisasterAlleviation.csproj",
+      "projectPath": "C:\\Users\\IRA\\OneDrive\\Desktop\\DisasterAlleviation\\Disaster\\DisasterAlleviation\\DisasterAlleviation.csproj",
       "packagesPath": "C:\\Users\\IRA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IRA\\source\\repos\\DisasterAlleviation\\DisasterAlleviation\\obj\\",
+      "outputPath": "C:\\Users\\IRA\\OneDrive\\Desktop\\DisasterAlleviation\\Disaster\\DisasterAlleviation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

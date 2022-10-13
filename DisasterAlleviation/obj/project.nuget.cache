@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hgikDPd7ZtMWRkYwbkwj36o0xlZ2jJG3gfC43RXMjUOv+LGIpWiLhan+f169xzwpIU4KcUeFrt80l11+ltojxg==",
+  "dgSpecHash": "e6x9+LI0K4odp9Ka6vBy7GyqSe6bT4EG6XjLR/aD9NN3fxnWZiBGBlR4k9uQbSawevBwpuEFEz0y9otm46JbLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IRA\\source\\repos\\DisasterAlleviation\\DisasterAlleviation\\DisasterAlleviation.csproj",
+  "projectFilePath": "C:\\Users\\IRA\\OneDrive\\Desktop\\DisasterAlleviation\\Disaster\\DisasterAlleviation\\DisasterAlleviation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IRA\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\IRA\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
