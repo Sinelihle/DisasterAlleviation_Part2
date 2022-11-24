@@ -9,4 +9,11 @@ namespace DisasterAlleviation.Pages
         {
         }
     }
+
+    public class ActiveDisaster
+    {
+        public string disasterName;
+        public string amount;
+        public string goodsAllocated;
+    }
 }

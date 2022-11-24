@@ -1,4 +1,27 @@
 ﻿@page
 @model DisasterAlleviation.Pages.ActiveDisasterModel
 @{
+    <h1 align='center'>Currently Active Disasters</h1>
+    <br />
+    
+<table>
+    <thead>
+      <tr>
+        <th>Active Disaster</th>
+        <th>Money Allocated</th>
+        <th>Goods Allocated</th>
+      </tr>
+    </thead>
+    <tbody>
+    @foreach(var Item in Model.disasterList)
+    {
+    <tr>
+        <td>Item.disasterName</td>
+        <td>Item.amount</td>
+        <td>Item.goodsAllocated</td>
+    </tr>       
+    }  
+    </tbody>
+</table>
+
 }

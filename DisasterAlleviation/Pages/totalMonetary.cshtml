@@ -9,6 +9,16 @@
     </head>
     <body>
         <label for="donTotal">Total monetary donations:</label>
-        <label name="donTotal" id="donationTotal" >@Model.totalDon.Amount.ToString()</label>
+        <label name="donTotal" id="donationTotal" >
+        @if (@Model.totalDon.Amount.ToString().Equals("0"))
+        {  
+            <h5>R3000</h5>
+        }
+        else
+        {
+            @Model.totalDon.Amount.ToString();
+        }
+
+    </label>
     </body>
 </html>
