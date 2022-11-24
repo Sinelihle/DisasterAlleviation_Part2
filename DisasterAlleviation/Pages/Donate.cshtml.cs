@@ -7,7 +7,7 @@ namespace DisasterAlleviation.Pages
     public class DonateModel : PageModel
     {
         public List<DonationInfo> userInfo = new List<DonationInfo>();
-        public DonationInfo loginInfo = new DonationInfo();
+        public DonationInfo donateInfo = new DonationInfo();
         public string errorMessage = "";
         public void OnGet()
         {
@@ -46,42 +46,42 @@ namespace DisasterAlleviation.Pages
         public void OnPost()
         {
             string goodCate = "";
-            loginInfo.GoodName = Request.Form["uEmail"];
-            loginInfo.DonDate = Request.Form["donDate"];
-            loginInfo.NumOfGoods = Request.Form["numOfGoods"];
-            loginInfo.GoodCatergory = Request.Form["goodsCategry"];
-            loginInfo.UserName = Request.Form["userName"];
+            donateInfo.GoodName = Request.Form["uEmail"];
+            donateInfo.DonDate = Request.Form["donDate"];
+            donateInfo.NumOfGoods = Request.Form["numOfGoods"];
+            donateInfo.GoodCatergory = Request.Form["goodsCategry"];
+            donateInfo.UserName = Request.Form["userName"];
 
 
-            if (loginInfo.GoodCatergory.ToString().Equals("Clothes"))
+            if (donateInfo.GoodCatergory.ToString().Equals("Clothes"))
             {
                 goodCate = "Clothes";
             }
-            else if(loginInfo.GoodCatergory.ToString().Equals("Non-Perishable Food"))
+            else if(donateInfo.GoodCatergory.ToString().Equals("Non-Perishable Food"))
             {
                 goodCate = "Non-Perishable Food";
             }
 
-            loginInfo.GoodCatergory = Request.Form[goodCate];
-
+            donateInfo.GoodCatergory = Request.Form[goodCate];
 
 
 
             try
             {
+
                 String ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\IRA\\OneDrive\\Documents\\DisasterDB.mdf;Integrated Security=True;Connect Timeout=30";
                 SqlConnection con = new SqlConnection(ConnectionString);
                 con.Open();
-                String query = "Insert into GOODS_DONATE (goodName, donaDate, numGoods, goodsCategory, goodDescription, donorName) values " + "(@goodName, @donaDate, @numGoods, @goodsCategory, @goodDescription, @donorName)";
+                String query = "Insert into GOODS_DONATE(goodName, donaDate, numGoods, goodsCategory, goodDescription, donorName) values " + "(@goodName, @donaDate, @numGoods, @goodsCategory, @goodDescription, @donorName)";
 
                 SqlCommand command = new SqlCommand(query, con);
 
-                command.Parameters.AddWithValue("@goodName", loginInfo.GoodName);
-                command.Parameters.AddWithValue("@donDate", loginInfo.DonDate);
-                command.Parameters.AddWithValue("@numGoods", loginInfo.NumOfGoods);
-                command.Parameters.AddWithValue("@goodsCategory", loginInfo.GoodCatergory);
-                command.Parameters.AddWithValue("@goodDescription", loginInfo.GoodDescription);
-                command.Parameters.AddWithValue("@donorName", loginInfo.UserName);
+                command.Parameters.AddWithValue("@goodName", donateInfo.GoodName);
+                command.Parameters.AddWithValue("@donDate", donateInfo.DonDate);
+                command.Parameters.AddWithValue("@numGoods", donateInfo.NumOfGoods);
+                command.Parameters.AddWithValue("@goodsCategory", donateInfo.GoodCatergory);
+                command.Parameters.AddWithValue("@goodDescription", donateInfo.GoodDescription);
+                command.Parameters.AddWithValue("@donorName", donateInfo.UserName);
 
 
 
