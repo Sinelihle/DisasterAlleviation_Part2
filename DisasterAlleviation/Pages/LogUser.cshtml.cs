@@ -16,7 +16,7 @@ namespace DisasterAlleviation.Pages
             //returns all the users information
             String ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\IRA\\OneDrive\\Documents\\DisasterDB.mdf;Integrated Security=True;Connect Timeout=30";
 
-           
+
             SqlConnection con = new SqlConnection(ConnectionString);
 
             try

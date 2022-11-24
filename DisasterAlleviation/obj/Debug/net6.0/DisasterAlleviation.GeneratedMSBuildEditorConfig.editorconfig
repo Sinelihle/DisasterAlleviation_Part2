@@ -15,12 +15,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\IRA\OneDrive\Desktop\DisasterAlleviation\Disaster\DisasterAlleviation
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/ActiveDisaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWN0aXZlRGlzYXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/Donate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9uYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/GoodsReceived.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR29vZHNSZWNlaXZlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/IRA/OneDrive/Desktop/DisasterAlleviation/Disaster/DisasterAlleviation/Pages/Index.cshtml]
